@@ -432,6 +432,13 @@
   .menu-emoji.bread { background: linear-gradient(145deg, #f3ddc0, #d9b489); }
   .menu-emoji.cake { background: linear-gradient(145deg, #f6c9d1, #eda3b4); }
 
+  .menu-emoji img, .review-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+
   .menu-card h3 {
     font-size: 1.25rem;
     color: var(--brown-dark);
@@ -836,19 +843,19 @@
 
         <div class="menu-grid">
           <div class="menu-card reveal">
-            <div class="menu-emoji beef">🍖</div>
+            <div class="menu-emoji beef"><img src="https://images.pexels.com/photos/16571598/pexels-photo-16571598.jpeg?auto=compress&cs=tinysrgb&w=600" alt="소고기 츄 간식"></div>
             <h3>소고기 츄</h3>
             <div class="price">12,000원</div>
             <p>건조기로 24시간 정성껏 말려 오래 씹을 수 있는 시그니처 간식이에요.</p>
           </div>
           <div class="menu-card reveal">
-            <div class="menu-emoji bread">🍞</div>
+            <div class="menu-emoji bread"><img src="https://images.pexels.com/photos/19332151/pexels-photo-19332151.jpeg?auto=compress&cs=tinysrgb&w=600" alt="강아지 식빵 간식"></div>
             <h3>강아지 식빵</h3>
             <div class="price">6,000원</div>
             <p>쌀가루로 만들어 소화가 편안한 폭신폭신한 식빵이에요.</p>
           </div>
           <div class="menu-card reveal">
-            <div class="menu-emoji cake">🎂</div>
+            <div class="menu-emoji cake"><img src="https://images.pexels.com/photos/37330431/pexels-photo-37330431.jpeg?auto=compress&cs=tinysrgb&w=600" alt="강아지 생일 케이크"></div>
             <h3>생일 케이크</h3>
             <div class="price">18,000원</div>
             <p>작은 원형 케이크에 강아지 얼굴을 올린 주문 제작 케이크예요.</p>
@@ -899,7 +906,7 @@
           <button class="carousel-btn prev" aria-label="이전 후기">‹</button>
           <div class="review-track" id="reviewTrack">
             <div class="review-card">
-              <div class="review-photo photo-a">🐩</div>
+              <div class="review-photo photo-a"><img src="https://images.unsplash.com/photo-1513189643435-49f97650b367?auto=format&fit=crop&w=600&q=80" alt="토이푸들"></div>
               <div class="review-body">
                 <div class="review-stars">★★★★★</div>
                 <p class="review-text">소고기 츄 하나 주니까 순삭이에요. 이제 이것만 찾아요!</p>
@@ -907,7 +914,7 @@
               </div>
             </div>
             <div class="review-card">
-              <div class="review-photo photo-b">🐶</div>
+              <div class="review-photo photo-b"><img src="https://images.unsplash.com/photo-1561905887-3461f30ee843?auto=format&fit=crop&w=600&q=80" alt="말티즈"></div>
               <div class="review-body">
                 <div class="review-stars">★★★★★</div>
                 <p class="review-text">편식쟁이 우리 아이가 식빵은 한입에 다 먹어요.</p>
@@ -915,7 +922,7 @@
               </div>
             </div>
             <div class="review-card">
-              <div class="review-photo photo-c">🐕</div>
+              <div class="review-photo photo-c"><img src="https://images.unsplash.com/photo-1745130179738-e9a8eafaf989?auto=format&fit=crop&w=600&q=80" alt="포메라니안"></div>
               <div class="review-body">
                 <div class="review-stars">★★★★★</div>
                 <p class="review-text">눈물자국 때문에 걱정했는데, 재료가 좋아서 안심하고 먹여요.</p>
@@ -923,7 +930,7 @@
               </div>
             </div>
             <div class="review-card">
-              <div class="review-photo photo-d">🎂</div>
+              <div class="review-photo photo-d"><img src="https://images.pexels.com/photos/34471174/pexels-photo-34471174.jpeg?auto=compress&cs=tinysrgb&w=600" alt="비숑프리제"></div>
               <div class="review-body">
                 <div class="review-stars">★★★★★</div>
                 <p class="review-text">생일 케이크 받고 순식간에 그릇 바닥까지 싹싹 핥았어요.</p>
@@ -931,7 +938,7 @@
               </div>
             </div>
             <div class="review-card">
-              <div class="review-photo photo-e">🦴</div>
+              <div class="review-photo photo-e"><img src="https://images.unsplash.com/photo-1608787449797-1b42f22f0ee9?auto=format&fit=crop&w=600&q=80" alt="시츄"></div>
               <div class="review-body">
                 <div class="review-stars">★★★★☆</div>
                 <p class="review-text">냄새 맡자마자 꼬리부터 흔드는 거 보면 벌써 맛있다는 표정이에요.</p>
